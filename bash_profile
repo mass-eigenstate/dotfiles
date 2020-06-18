@@ -16,6 +16,7 @@ fi
 if [ $HOST == "neutrino" ]
   then
     export PATH="$PATH:$HOME/bin"
+    export EDITOR="vim"
  
 #   Aliases unique to this machine
 
