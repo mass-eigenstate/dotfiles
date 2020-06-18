@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
-  Plug 'ParamagicDev/vim-medic_chalk'
+ Plug 'tpope/vim-fugitive'
+ Plug 'ParamagicDev/vim-medic_chalk'
 call plug#end()
 
