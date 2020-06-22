@@ -12,6 +12,8 @@ if [ $HOST == "iMac.local" ]
 
     alias gocoding="cd ~/OneDrive/!Personal/coding/"
     alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
+    alias god1="cd /Volumes/Data1"
+    alias god2="cd /Volumes/Data2"
 fi
 if [ $HOST == "neutrino" ]
   then
