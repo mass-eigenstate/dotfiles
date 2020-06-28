@@ -3,6 +3,8 @@ set number
 set relativenumber
 set tabstop=2
 set expandtab
+set autoindent
+"
 " Needed for lightline plugin to work
 set laststatus=2
 " 
