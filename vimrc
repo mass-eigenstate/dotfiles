@@ -4,9 +4,14 @@ set relativenumber
 set tabstop=2
 set expandtab
 set autoindent
+set textwidth=80  " wrap lines at 80
 "
 " Needed for lightline plugin to work
 set laststatus=2
+"
+" Filetypes
+"
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 " 
 " Plugins using vim-plugin
 "
