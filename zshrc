@@ -101,4 +101,6 @@ export MANPATH="/usr/local/man:$MANPATH"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sspi="ssh mike@pion.mikeprocario.net"
 alias resh=". ~/.zshrc"
+alias godot="cd ~/Documents/Github/dotfiles"
 PS1="%F{50}%n@%m > "
+
