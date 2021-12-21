@@ -12,6 +12,13 @@ set laststatus=2
 " Filetypes
 "
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+"
+" Needed for vimwiki to work
+"
+set nocompatible
+filetype plugin on
+syntax on
+
 " 
 " Plugins using vim-plugin
 "
@@ -20,6 +27,7 @@ call plug#begin('~/.vim/plugged')
  Plug 'ParamagicDev/vim-medic_chalk'
  Plug 'junegunn/fzf'
  Plug 'itchyny/lightline.vim'
+ Plug 'vimwiki/vimwiki'
 call plug#end()
 "
 " Set the options for the plugins
