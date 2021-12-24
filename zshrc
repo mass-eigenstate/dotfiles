@@ -102,5 +102,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 alias sspi="ssh mike@pion.mikeprocario.net"
 alias resh=". ~/.zshrc"
 alias godot="cd ~/Documents/Github/dotfiles"
+alias ssmu="ssh mike@10.0.0.7"
+alias ssel="ssh mike@10.0.0.36"
 PS1="%F{50}%n@%m > "
 
