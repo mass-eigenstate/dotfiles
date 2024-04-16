@@ -1,0 +1,16 @@
+#
+#  Configuration local to the this machine 
+#
+
+alias nvim="~/Applications/nvim.appimage"
+alias etcher="~/Applications/balenaEtcher-1.18.4-x64.AppImage"
+alias obsidian="~/Applications/Obsidian-1.5.3.AppImage"
+
+alias nupdate="sudo nala update"
+alias nupgrade="sudo nala upgrade"
+alias listup="nala list --upgradable"
+
+alias dir="exa --long"
+alias dira="exa --long -a"
+
+alias less="batcat"
