@@ -25,6 +25,10 @@ compinit
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
+# FZF
+
+eval "$(fzf --zsh)"
+
 # Aliases
 
 alias dir="ls -ls --color"
