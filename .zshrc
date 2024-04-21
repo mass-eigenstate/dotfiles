@@ -40,7 +40,7 @@ alias upgradable="sudo apt update; apt list --upgradable"
 alias ssmu="ssh mike@10.0.07"
 alias sspi="ssh mike@pion.mikeprocario.net"
 
-source ~/.zshrc-`hostname`
+[[ ! -f ~/.zshrc-`hostname` ]] || source ~/.zshrc-`hostname`
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
