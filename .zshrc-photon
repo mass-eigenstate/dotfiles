@@ -16,3 +16,7 @@ alias dira="exa --long -a"
 alias less="batcat"
 
 alias fd=fdfind		# Debian names fd as fdfind. This alias ensures I get the right fd 
+
+# Install the syntax highlighting extension
+#
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

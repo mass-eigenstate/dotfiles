@@ -1,4 +1,7 @@
 alias gohugo="cd /Users/mike/Library/CloudStorage/OneDrive-Personal/hugo"
 export PATH=$PATH:/Users/mike/Library/Python/3.9/bin
 
+# Install the syntax highlighting extension
+#
+source  /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
