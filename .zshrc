@@ -21,7 +21,7 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# Install the pwerlevel10k theme
+# Install the powerlevel10k theme
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
@@ -44,4 +44,6 @@ alias sspi="ssh mike@pion.mikeprocario.net"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
+# Install the syntax highlighting extension
+#
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

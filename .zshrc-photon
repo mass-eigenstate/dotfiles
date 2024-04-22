@@ -14,3 +14,5 @@ alias dir="exa --long"
 alias dira="exa --long -a"
 
 alias less="batcat"
+
+alias fd=fdfind		# Debian names fd as fdfind. This alias ensures I get the right fd 
