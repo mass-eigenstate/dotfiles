@@ -3,7 +3,7 @@ export PATH=$PATH:/Users/mike/Library/Python/3.9/bin
 
 # Install the syntax highlighting extension
 #
-source  /opt/homebrew/share/zsh-syntax-highlighting/zsh-.utosuggestions.zsh
+source  /opt/homebrew/share/zsh-syntax-autosuggestions/zsh-autosuggestions.zsh
 
 source  /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

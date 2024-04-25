@@ -21,10 +21,6 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# Install the powerlevel10k theme
-
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
 #FZF
 
 eval "$(fzf --zsh)"
@@ -39,6 +35,10 @@ alias prenv=printenv
 
 alias ssmu="ssh mike@10.0.07"
 alias sspi="ssh mike@pion.mikeprocario.net"
+# Install the powerlevel10k theme
+
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
 
 [[ ! -f ~/.zshrc-`hostname` ]] || source ~/.zshrc-`hostname`
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
