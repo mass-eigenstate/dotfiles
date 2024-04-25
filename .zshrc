@@ -25,7 +25,7 @@ compinit
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
-# FZF
+#FZF
 
 eval "$(fzf --zsh)"
 
