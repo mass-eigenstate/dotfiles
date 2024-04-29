@@ -10,9 +10,6 @@ alias nupdate="sudo nala update"
 alias nupgrade="sudo nala upgrade"
 alias listup="nala list --upgradable"
 
-alias dir="exa --long"
-alias dira="exa --long -a"
-
 alias less="batcat"
 
 alias fd=fdfind		# Debian names fd as fdfind. This alias ensures I get the right fd 
@@ -20,3 +17,8 @@ alias fd=fdfind		# Debian names fd as fdfind. This alias ensures I get the right
 # Install the syntax highlighting extension
 #
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#
+# Set up homebrew
+#
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

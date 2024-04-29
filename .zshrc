@@ -30,6 +30,10 @@ eval "$(fzf --zsh)"
 alias dir="eza -l --sort=oldest --time-style=iso"
 alias dira="eza -l --all --sort=oldest --time-style=iso"
 alias prenv=printenv
+alias gs="git status"
+alias gf="git fetch"
+alias gc="git commit"
+alias ga="git add"
 
 # SSH 
 
@@ -43,5 +47,4 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.zshrc-`hostname` ]] || source ~/.zshrc-`hostname`
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 
