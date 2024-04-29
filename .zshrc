@@ -27,8 +27,8 @@ eval "$(fzf --zsh)"
 
 # Aliases
 
-alias dir="ls -ls --color"
-alias dira="ls -lsa --color"
+alias dir="eza -l --sort=oldest --time-style=iso"
+alias dira="eza -l --all --sort=oldest --time-style=iso"
 alias prenv=printenv
 
 # SSH 
