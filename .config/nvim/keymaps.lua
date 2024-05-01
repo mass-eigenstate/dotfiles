@@ -1,0 +1,6 @@
+vim.keymap.set("n","<leader>ws", "<C-w>s", { desc = "Split the window vertically" } )
+vim.keymap.set("n","<leader>wv", "<C-w>v", { desc = "Split the window horizontally" } )
+vim.keymap.set("n","<leader>w=", "<C-w>=", { desc = "Split the window equally" } )
+vim.keymap.set("n","<leader>wo", "<C-w>o", { desc = "Close the other pane." } )
+vim.keymap.set("n","<leader>wd", "<C-w>j", { desc = "Move down to the next pane" } )  
+vim.keymap.set("n","<leader>wu", "<C-w>k", { desc = "Move up to the next pane" } )
