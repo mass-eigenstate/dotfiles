@@ -69,12 +69,17 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
   -- NOTE: First, some plugins that don't require any configuration
 
-  -- Git related plugins
-  'tpope/vim-fugitive',
+  'tpope/vim-fugitive',  -- Git related plugins
   'tpope/vim-rhubarb',
+  'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
-  -- Detect tabstop and shiftwidth automatically
-  'tpope/vim-sleuth',
+  -- Neo-tree
+--  {
+--      "nvim-neo-tree/neo-tree.nvim",
+--        keys = {
+--          { "<leader>ft", "<cmd>Neotree toggle<cr>", desc = "NeoTree" },
+--      },
+--  },
 
   -- NOTE: This is where your plugins related to LSP can be installed.
   --  The configuration is done below. Search for lspconfig to find it below.
@@ -175,19 +180,18 @@ require('lazy').setup({
       },
     },
   },
-
   {
-    -- Add indentation guides even on blank lines
-    'lukas-reineke/indent-blankline.nvim',
-    -- Enable `lukas-reineke/indent-blankline.nvim`
-    -- See `:help indent_blankline.txt`
-    opts = {
-      char = '┊',
-      show_trailing_blankline_indent = false,
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v3.x",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+      -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
     },
+    keys = { "<leader>ft", "<cmd>Neotree toggle<cr>", desc = "NeoTree" },
   },
-
-  -- "gc" to comment visual regions/lines
+-- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
   -- Fuzzy Finder (files, lsp, etc)
@@ -211,8 +215,7 @@ require('lazy').setup({
     },
   },
 
-  {
-    -- Highlight, edit, and navigate code
+  {   -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     dependencies = {
       'nvim-treesitter/nvim-treesitter-textobjects',
