@@ -1,19 +1,10 @@
--- Basic Settings
 --
-vim.opt.number = true
-vim.opt.relativenumber = true
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
-vim.opt.tabstop = 4
-vim.opt.autoindent = true
-vim.opt.textwidth = 80 -- wrap lines at 80 
-
-vim.opt.termguicolors = true
-
 -- Set up the key remaps
 --
 
 vim.g.mapleader = ' ' -- set the mapleader to <space>
+require("core.settings")
+require("core.keymaps")
 
 -- Set up lazy.vim
 --
