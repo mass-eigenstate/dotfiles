@@ -24,7 +24,8 @@ eval "$(starship init zsh)"
 #
 # Aliases
 #
-alias dir="eza -l --sort=oldest --time-style=iso"
+alias dir="eza -l"
+alias dirt="eza -l --sort=oldest --time-style=iso"
 alias dira="eza -l --all --sort=oldest --time-style=iso"
 alias prenv=printenv
 alias gstat="git status"
