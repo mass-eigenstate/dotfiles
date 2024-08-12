@@ -1,6 +1,11 @@
 neofetch
-
+#
+# Do the local config first so that linuxbrew is in the path. 
+#
+[[ ! -f ~/.zshrc-`hostname` ]] || source ~/.zshrc-`hostname`
+#
 # Lines configured by zsh-newuser-install
+#
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
@@ -15,12 +20,11 @@ compinit
 # End of lines added by compinstall
 
 #FZF
-
 eval "$(fzf --zsh)"
-
 # Starship prompt
-
 eval "$(starship init zsh)"
+#zoxide
+eval "$(zoxide init zsh)"
 #
 # Aliases
 #
@@ -36,9 +40,6 @@ alias gc="git commit"
 alias ga="git add"
 
 # SSH 
-
-alias ssmu="ssh mike@10.0.07"
+alias ssmu="ssh mike@10.0.0.7"
 alias sspi="ssh mike@pion.mikeprocario.net"
-
-[[ ! -f ~/.zshrc-`hostname` ]] || source ~/.zshrc-`hostname`
 
