@@ -28,7 +28,7 @@ eval "$(zoxide init zsh)"
 #
 # Aliases
 #
-alias dir="eza -l"
+alias dir="eza -l --group-directories-first"
 alias dirt="eza -l --sort=oldest --time-style=iso"
 alias dira="eza -l --all --sort=oldest --time-style=iso"
 alias prenv=printenv
@@ -38,6 +38,7 @@ alias gpull="git pull"
 alias gf="git fetch"
 alias gc="git commit"
 alias ga="git add"
+alias activate="source/.venv/bin/activate"
 
 # SSH 
 alias ssmu="ssh mike@10.0.0.7"
