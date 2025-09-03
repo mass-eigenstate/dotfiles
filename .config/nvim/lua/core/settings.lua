@@ -1,4 +1,3 @@
-vim.o.have_nerd_font = true
 vim.o.number = true 
 vim.o.relativenumber = true
 vim.o.autoindent = true
