@@ -43,6 +43,6 @@ alias activate="source/.venv/bin/activate"
 # SSH 
 alias ssmu="ssh mike@10.0.0.7"
 alias sspi="ssh mike@pion.mikeprocario.net"
-alias ssnew="ssh mike@172.104.24.220"
 alias ssph="ssh mike@photon"
+alias sslep="ssh mike@172.104.24.220"
 
