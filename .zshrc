@@ -32,13 +32,23 @@ alias dir="eza -l --group-directories-first"
 alias dirt="eza -l --sort=oldest --time-style=iso"
 alias dira="eza -l --all --sort=oldest --time-style=iso"
 alias prenv=printenv
+#
+# git Aliases
+#
 alias gstat="git status"
 alias gpush="git push"
 alias gpull="git pull"
 alias gf="git fetch"
 alias gc="git commit"
 alias ga="git add"
+#
+#  UV related aliases
+#
 alias activate="source/.venv/bin/activate"
+#
+# zshell related aliases 
+#
+alias his="history -50"
 
 # SSH 
 alias ssmu="ssh mike@10.0.0.7"
