@@ -1,3 +1,9 @@
+#
+# Set up some env variables. 
+#
+export TERM="ghostty"
+export TERMINAL="ghostty"
+export EDITOR="nvim"
 #  Set up the brew path based on the hostaname. Brew uses a different path on Mac and linux.
 host=`hostname`
 
