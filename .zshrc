@@ -1,4 +1,4 @@
-neofetch
+fastfetch
 #
 # Do the local config first so that linuxbrew is in the path. 
 #
