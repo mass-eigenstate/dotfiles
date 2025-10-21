@@ -1,4 +1,0 @@
-# Syncs the local OneDrive directory with the remote OneDrive
-#
-alias rcsync="rclone bisync onedrive: ./OneDrive"
-
