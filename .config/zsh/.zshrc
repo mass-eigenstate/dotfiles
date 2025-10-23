@@ -32,6 +32,7 @@ alias dir="eza -l --group-directories-first"
 alias dirt="eza -l --sort=oldest --time-style=iso"
 alias dira="eza -l --all --sort=oldest --time-style=iso"
 alias prenv=printenv
+alias less="bat"
 #
 # git Aliases
 #
