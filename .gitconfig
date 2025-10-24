@@ -1,4 +1,9 @@
-# This is Git's per-user configuration file.
 [user]
-	name = Michael Procario
-	email = procario@gmail.com 
+	name = Mike Procario
+	email = procario@gmail.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
