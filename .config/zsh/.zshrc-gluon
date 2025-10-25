@@ -1,0 +1,6 @@
+#
+#  Aliases unique to gluon
+#
+alias less="batcat"
+alias fd="fdfind"
+
