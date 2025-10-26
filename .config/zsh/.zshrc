@@ -1,8 +1,3 @@
-fastfetch
-#
-# Do the local config first so that linuxbrew is in the path. 
-#
-[[ ! -f ~/.zshrc-`hostname` ]] || source ~/.zshrc-`hostname`
 #
 # Lines configured by zsh-newuser-install
 #
@@ -56,4 +51,10 @@ alias ssmu="ssh mike@10.0.0.7"
 alias sspi="ssh mike@pion.mikeprocario.net"
 alias ssph="ssh mike@photon"
 alias sslep="ssh mike@172.104.24.220"
+#
+# Do the local config 
+#
+[[ ! -f $ZDOTDIR/.zshrc-`hostname` ]] || source $ZDOTDIR/.zshrc-`hostname`
+#
+fastfetch
 

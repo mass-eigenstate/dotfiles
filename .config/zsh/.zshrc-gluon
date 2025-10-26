@@ -3,4 +3,6 @@
 #
 alias less="batcat"
 alias fd="fdfind"
-
+#
+#
+export PATH=$PATH:$HOME/AppImages
