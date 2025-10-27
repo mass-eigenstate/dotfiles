@@ -6,3 +6,6 @@ alias fd="fdfind"
 #
 #
 export PATH=$PATH:$HOME/AppImages
+#
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"  # sets up homebrew for linux
+
