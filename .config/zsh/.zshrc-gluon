@@ -3,6 +3,7 @@
 #
 alias less="batcat"
 alias fd="fdfind"
+alias obsidian="~/AppImages/Obsidian-1.9.14.AppImage &"
 #
 #
 export PATH=$PATH:$HOME/AppImages
