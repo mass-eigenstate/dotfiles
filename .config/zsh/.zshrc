@@ -1,8 +1,3 @@
-neofetch
-#
-# Do the local config first so that linuxbrew is in the path. 
-#
-[[ ! -f ~/.zshrc-`hostname` ]] || source ~/.zshrc-`hostname`
 #
 # Lines configured by zsh-newuser-install
 #
@@ -28,20 +23,40 @@ eval "$(zoxide init zsh)"
 #
 # Aliases
 #
-alias dir="eza -l"
+alias dir="eza -l --group-directories-first"
 alias dirt="eza -l --sort=oldest --time-style=iso"
 alias dira="eza -l --all --sort=oldest --time-style=iso"
 alias prenv=printenv
+alias less="bat"
+#
+# git Aliases
+#
 alias gstat="git status"
 alias gpush="git push"
 alias gpull="git pull"
 alias gf="git fetch"
 alias gc="git commit"
 alias ga="git add"
+#
+#  UV related aliases
+#
+alias activate="source/.venv/bin/activate"
+#
+# zshell related aliases 
+#
+alias his="history -50"
 
 # SSH 
 alias ssmu="ssh mike@10.0.0.7"
 alias sspi="ssh mike@pion.mikeprocario.net"
+alias ssph="ssh mike@photon"
+alias sslep="ssh mike@172.104.24.220"
+#
+# Do the local config 
+#
+[[ ! -f $ZDOTDIR/.zshrc-`hostname` ]] || source $ZDOTDIR/.zshrc-`hostname`
+#
+fastfetch
 
 alias dfmp="df -h -exclude-type="tmpfs" --output="source,fstype,size,used,available,target"
 

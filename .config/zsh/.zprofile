@@ -3,6 +3,5 @@ host=`hostname`
 
 [[ $host = "proton.local" ]] && eval "$(/opt/homebrew/bin/brew shellenv)"
 [[ $host = "muon.local" ]] && eval "$(/opt/homebrew/bin/brew shellenv)"
-[[ $host = "photon" ]] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 [[ $host = "gluon" ]] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-[[ $host = "neutron" ]] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"  # For WSL on the windows box
+[[ $host = "photon" ]] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
