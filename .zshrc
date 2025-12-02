@@ -43,3 +43,5 @@ alias ga="git add"
 alias ssmu="ssh mike@10.0.0.7"
 alias sspi="ssh mike@pion.mikeprocario.net"
 
+alias dfmp="df -h -exclude-type="tmpfs" --output="source,fstype,size,used,available,target"
+
