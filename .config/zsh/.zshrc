@@ -58,3 +58,5 @@ alias sslep="ssh mike@172.104.24.220"
 #
 fastfetch
 
+alias dfmp='df -h --exclude-type="tmpfs" --output="source,fstype,size,used,avail,target"'
+
