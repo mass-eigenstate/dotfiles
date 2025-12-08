@@ -1,4 +1,13 @@
 # Syncs the local OneDrive directory with the remote OneDrive
 #
 alias rcsync="rclone bisync onedrive: ./OneDrive"
+#
+#  Needed by soft-serve
+#
+export SOFT_INITIAL_ADMIN_KEYS=~/.ssh/id_ed25519
+#
+#  Add /home/mikep/bin to path
+#
+PATH=$PATH:~/bin
+
 
