@@ -28,6 +28,7 @@ alias dirt="eza -l --sort=oldest --time-style=iso"
 alias dira="eza -l --all --sort=oldest --time-style=iso"
 alias prenv=printenv
 alias less="bat"
+alias mydate='date "+%Y-%m-%d"'
 #
 # git Aliases
 #
