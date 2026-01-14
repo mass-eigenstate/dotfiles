@@ -4,10 +4,17 @@ alias rcsync="rclone bisync onedrive: ./OneDrive"
 #
 #  Needed by soft-serve
 #
-export SOFT_INITIAL_ADMIN_KEYS=~/.ssh/id_ed25519
+export SOFT_SERVE_INITIAL_ADMIN_KEYS=~/.ssh/id_ed25519
 #
 #  Add /home/mikep/bin to path
 #
 PATH=$PATH:~/bin
+#
+# Setup the ssh-agent
+#
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+
 
 
